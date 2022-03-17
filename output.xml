@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.10.2 on win32)" generated="20220317 12:03:59.799" rpa="false" schemaversion="2">
+<suite id="s1" name="First Robot" source="C:\Users\F\Desktop\Orthers\Robot Framework\ep01\first_robot.robot">
+<test id="s1-t1" name="TC-001 Verify that when input correct username and password then user can login">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>file:///C:/Users/F/Desktop/Orthers/Robot%20Framework/ep01/ex06.html</arg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220317 12:03:59.958" level="INFO">Opening browser 'chrome' to base url 'file:///C:/Users/F/Desktop/Orthers/Robot%20Framework/ep01/ex06.html'.</msg>
+<status status="PASS" starttime="20220317 12:03:59.958" endtime="20220317 12:04:01.055"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath=//div[@p='xyz' and @k='abc']/input</arg>
+<arg>example066666</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220317 12:04:01.055" level="INFO">Typing text 'example066666' into text field 'xpath=//div[@p='xyz' and @k='abc']/input'.</msg>
+<status status="PASS" starttime="20220317 12:04:01.055" endtime="20220317 12:04:01.112"/>
+</kw>
+<status status="PASS" starttime="20220317 12:03:59.957" endtime="20220317 12:04:01.113"/>
+</test>
+<status status="PASS" starttime="20220317 12:03:59.800" endtime="20220317 12:04:01.114"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="First Robot">First Robot</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
